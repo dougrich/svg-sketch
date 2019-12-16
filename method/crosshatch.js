@@ -1,7 +1,7 @@
 const Jimp = require('jimp');
 
 const strokeWeight = 1
-const strokeMinLength = 5
+const strokeMinLength = 1
 const precision = 2
 const weights = [0.95, 0.85, 0.8, 0.7, 0.6, 0.5]
 const cmd = plan(weights, weights.length * weights.length * strokeWeight * 1.05)
